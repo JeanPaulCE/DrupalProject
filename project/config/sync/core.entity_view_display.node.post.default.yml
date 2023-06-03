@@ -13,6 +13,7 @@ dependencies:
     - node.type.post
   module:
     - comment
+    - link
     - text
     - user
 id: node.post.default
@@ -45,10 +46,14 @@ content:
     weight: 104
     region: content
   field_enlaces_relacionados:
-    type: entity_reference_label
+    type: link
     label: above
     settings:
-      link: true
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
     third_party_settings: {  }
     weight: 106
     region: content
