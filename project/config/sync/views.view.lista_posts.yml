@@ -396,7 +396,7 @@ display:
       style:
         type: grid_responsive
         options:
-          uses_fields: false
+          grouping: {  }
           columns: 2
           cell_min_width: 100
           grid_gutter: 10
@@ -427,6 +427,48 @@ display:
         - 'languages:language_interface'
         - url
         - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_imagen'
+        - 'config:field.storage.node.field_palabras_clave'
+  block_1:
+    id: block_1
+    display_title: Block
+    display_plugin: block
+    position: 2
+    display_options:
+      title: 'Post más recientes'
+      pager:
+        type: some
+        options:
+          offset: 0
+          items_per_page: 3
+      style:
+        type: default
+        options:
+          grouping: {  }
+          row_class: ''
+          default_row_class: true
+      row:
+        type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
+      defaults:
+        title: false
+        pager: false
+        style: false
+        row: false
+      display_extenders: {  }
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
         - 'user.node_grants:view'
         - user.permissions
       tags:
