@@ -1,0 +1,18 @@
+uuid: 922ea649-ad49-4d2c-9866-25cc63acd633
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.video_online
+id: node.video_online.title
+field_name: title
+entity_type: node
+bundle: video_online
+label: 'Youtube Videos'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

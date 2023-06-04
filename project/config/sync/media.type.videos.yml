@@ -1,0 +1,16 @@
+uuid: 7cf6d5e6-0418-4ee9-9683-03a2bee7c5ba
+langcode: en
+status: true
+dependencies: {  }
+id: videos
+label: Videos
+description: ''
+source: 'oembed:video'
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_oembed_video
+  thumbnails_directory: 'public://oembed_thumbnails/[date:custom:Y-m]'
+  providers:
+    - YouTube
+field_map: {  }

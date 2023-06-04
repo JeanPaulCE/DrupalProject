@@ -1,0 +1,38 @@
+uuid: 40fb289b-be41-4562-93fa-699c9e306a55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_previewvideo
+    - node.type.video_online
+  module:
+    - image
+id: node.video_online.field_previewvideo
+field_name: field_previewvideo
+entity_type: node
+bundle: video_online
+label: PreviewImage
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: 1280x720
+  min_resolution: 320x240
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image
