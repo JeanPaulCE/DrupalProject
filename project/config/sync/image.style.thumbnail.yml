@@ -5,13 +5,13 @@ dependencies: {  }
 _core:
   default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
 name: thumbnail
-label: 'Thumbnail (100×100)'
+label: 'long card(595×230)'
 effects:
-  1cfec298-8620-4749-b100-ccb6c4500779:
-    uuid: 1cfec298-8620-4749-b100-ccb6c4500779
-    id: image_scale
-    weight: 0
+  5209d8e3-138a-4131-b7ea-46f02ff7c7a2:
+    uuid: 5209d8e3-138a-4131-b7ea-46f02ff7c7a2
+    id: image_scale_and_crop
+    weight: 2
     data:
-      width: 100
-      height: 100
-      upscale: false
+      width: 595
+      height: 230
+      anchor: center-center
