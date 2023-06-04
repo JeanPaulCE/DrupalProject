@@ -12,6 +12,7 @@ dependencies:
     - node.type.post
   module:
     - comment
+    - link
     - media_library
     - path
     - text
@@ -53,10 +54,12 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_enlaces_relacionados:
-    type: options_select
-    weight: 5
+    type: link_default
+    weight: 26
     region: content
-    settings: {  }
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   field_imagen:
     type: media_library_widget

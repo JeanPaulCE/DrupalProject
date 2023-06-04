@@ -1,18 +1,18 @@
-uuid: 76f32338-b478-4c0e-82c0-f9c8208ee170
+uuid: 98cbc408-3c2a-4b3d-85e3-6f5078cbc8b0
 langcode: en
 status: true
 dependencies:
   module:
+    - link
     - node
 id: node.field_enlaces_relacionados
 field_name: field_enlaces_relacionados
 entity_type: node
-type: entity_reference
-settings:
-  target_type: node
-module: core
+type: link
+settings: {  }
+module: link
 locked: false
-cardinality: 2
+cardinality: 3
 translatable: true
 indexes: {  }
 persist_with_no_fields: false
