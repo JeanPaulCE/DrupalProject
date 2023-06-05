@@ -150,7 +150,7 @@ display:
         type: grid
         options:
           uses_fields: false
-          columns: 1
+          columns: 3
           automatic_width: true
           alignment: vertical
           row_class_custom: ''
