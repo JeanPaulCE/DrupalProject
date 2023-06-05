@@ -29,5 +29,5 @@ settings:
   per_page: 15
   anonymous: 0
   form_location: true
-  preview: 1
+  preview: 2
 field_type: comment
