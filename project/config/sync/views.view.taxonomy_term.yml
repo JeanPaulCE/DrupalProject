@@ -415,8 +415,8 @@ display:
       style:
         type: grid_responsive
         options:
-          uses_fields: false
-          columns: 2
+          grouping: {  }
+          columns: 1
           cell_min_width: 100
           grid_gutter: 10
           alignment: horizontal
