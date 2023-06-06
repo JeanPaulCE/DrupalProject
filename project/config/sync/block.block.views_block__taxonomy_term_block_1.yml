@@ -1,0 +1,34 @@
+uuid: aa248eeb-4e93-41f6-883f-90b0e3bae015
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.taxonomy_term
+  module:
+    - taxonomy
+    - views
+  theme:
+    - olivero
+id: views_block__taxonomy_term_block_1
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:taxonomy_term-block_1'
+settings:
+  id: 'views_block:taxonomy_term-block_1'
+  label: 'Ultimos post de la categoria'
+  label_display: visible
+  provider: views
+  context_mapping:
+    tid: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+  views_label: 'Ultimos post de la categoria'
+  items_per_page: none
+visibility:
+  'entity_bundle:taxonomy_term':
+    id: 'entity_bundle:taxonomy_term'
+    negate: false
+    context_mapping:
+      taxonomy_term: '@taxonomy_term.taxonomy_term_route_context:taxonomy_term'
+    bundles:
+      categoria: categoria
