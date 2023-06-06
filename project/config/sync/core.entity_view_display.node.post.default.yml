@@ -11,30 +11,26 @@ dependencies:
     - field.field.node.post.field_imagen
     - field.field.node.post.field_palabras_clave
     - node.type.post
-    - views.view.comments_recent
-    - views.view.recent_post
   module:
     - comment
     - layout_builder
+    - layout_discovery
     - link
     - text
     - user
-    - views
 third_party_settings:
   layout_builder:
     enabled: true
     allow_custom: false
     sections:
       -
-        layout_id: layout_twocol_section
+        layout_id: layout_onecol
         layout_settings:
-          label: 'main content'
-          context_mapping: {  }
-          column_widths: 75-25
+          label: ''
         components:
-          69fcd501-470b-4e16-aa54-a8446f564734:
-            uuid: 69fcd501-470b-4e16-aa54-a8446f564734
-            region: first
+          c41f5365-9dd7-4d73-b6b3-b6c11020d9ba:
+            uuid: c41f5365-9dd7-4d73-b6b3-b6c11020d9ba
+            region: content
             configuration:
               id: 'extra_field_block:node:post:links'
               label_display: '0'
@@ -42,9 +38,9 @@ third_party_settings:
                 entity: layout_builder.entity
             weight: 0
             additional: {  }
-          fdc8e052-1aa3-4fd8-8f56-d0f1b40c7f09:
-            uuid: fdc8e052-1aa3-4fd8-8f56-d0f1b40c7f09
-            region: first
+          83609537-e69a-42b4-b27c-dc80d7257994:
+            uuid: 83609537-e69a-42b4-b27c-dc80d7257994
+            region: content
             configuration:
               id: 'field_block:node:post:body'
               label_display: '0'
@@ -57,9 +53,9 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 1
             additional: {  }
-          7f203166-564b-4af5-a903-91dc0a5d9c21:
-            uuid: 7f203166-564b-4af5-a903-91dc0a5d9c21
-            region: first
+          d22a6a4d-052a-4f25-990a-2021b73e798e:
+            uuid: d22a6a4d-052a-4f25-990a-2021b73e798e
+            region: content
             configuration:
               id: 'field_block:node:post:field_imagen'
               label_display: '0'
@@ -74,9 +70,9 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 2
             additional: {  }
-          4bec711e-146d-42de-abc1-d9a17f42189d:
-            uuid: 4bec711e-146d-42de-abc1-d9a17f42189d
-            region: first
+          33c63819-270c-4a1d-bed9-bf7ca749cb67:
+            uuid: 33c63819-270c-4a1d-bed9-bf7ca749cb67
+            region: content
             configuration:
               id: 'field_block:node:post:field_categoria'
               label_display: '0'
@@ -90,9 +86,9 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 3
             additional: {  }
-          702fd98f-2627-4388-bf7d-afcb05b7eebe:
-            uuid: 702fd98f-2627-4388-bf7d-afcb05b7eebe
-            region: first
+          5806db63-68e8-40c7-bd7b-cfdf7a6a0dbf:
+            uuid: 5806db63-68e8-40c7-bd7b-cfdf7a6a0dbf
+            region: content
             configuration:
               id: 'field_block:node:post:field_comentarios'
               label_display: '0'
@@ -107,9 +103,9 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 4
             additional: {  }
-          48e64612-aa41-4e5f-9481-4eedfbd35372:
-            uuid: 48e64612-aa41-4e5f-9481-4eedfbd35372
-            region: first
+          e707b97c-d079-467f-a08b-24b9d1ab115e:
+            uuid: e707b97c-d079-467f-a08b-24b9d1ab115e
+            region: content
             configuration:
               id: 'field_block:node:post:field_palabras_clave'
               label_display: '0'
@@ -123,9 +119,9 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 5
             additional: {  }
-          b24267ea-c7f6-4b52-a16c-a5a9305ac93d:
-            uuid: b24267ea-c7f6-4b52-a16c-a5a9305ac93d
-            region: first
+          ab00a562-0a19-4730-85c0-885628c12001:
+            uuid: ab00a562-0a19-4730-85c0-885628c12001
+            region: content
             configuration:
               id: 'field_block:node:post:field_enlaces_relacionados'
               label_display: '0'
@@ -141,53 +137,7 @@ third_party_settings:
                   rel: ''
                   target: ''
                 third_party_settings: {  }
-            weight: 7
-            additional: {  }
-          da04397f-d957-4cfe-9613-1a2689f3896e:
-            uuid: da04397f-d957-4cfe-9613-1a2689f3896e
-            region: second
-            configuration:
-              id: 'views_block:recent_post-block_1'
-              label: ''
-              label_display: visible
-              provider: views
-              context_mapping: {  }
-              views_label: ''
-              items_per_page: none
-            weight: 0
-            additional: {  }
-          934625ce-5f64-4e7e-b350-0801e09a64b1:
-            uuid: 934625ce-5f64-4e7e-b350-0801e09a64b1
-            region: first
-            configuration:
-              id: 'field_block:node:post:field_comentarios'
-              label: Comentarios
-              label_display: visible
-              provider: layout_builder
-              context_mapping:
-                entity: layout_builder.entity
-                view_mode: view_mode
-              formatter:
-                type: comment_default
-                label: inline
-                settings:
-                  view_mode: full
-                  pager_id: 1
-                third_party_settings: {  }
-            weight: 8
-            additional: {  }
-          21cd6001-ab63-4224-87f1-ec63a5e77bc3:
-            uuid: 21cd6001-ab63-4224-87f1-ec63a5e77bc3
-            region: first
-            configuration:
-              id: 'views_block:comments_recent-block_1'
-              label: ''
-              label_display: visible
-              provider: views
-              context_mapping: {  }
-              views_label: ''
-              items_per_page: none
-            weight: 9
+            weight: 6
             additional: {  }
         third_party_settings: {  }
 id: node.post.default
