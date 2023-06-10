@@ -416,7 +416,7 @@ display:
         type: grid_responsive
         options:
           grouping: {  }
-          columns: 1
+          columns: 2
           cell_min_width: 100
           grid_gutter: 10
           alignment: horizontal
@@ -493,8 +493,25 @@ display:
             field_identifier: ''
           exposed: false
           granularity: second
+      style:
+        type: grid_responsive
+        options:
+          grouping: {  }
+          columns: 1
+          cell_min_width: 100
+          grid_gutter: 10
+          alignment: horizontal
+      row:
+        type: fields
+        options:
+          default_field_elements: true
+          inline: {  }
+          separator: ''
+          hide_empty: false
       defaults:
         pager: false
+        style: false
+        row: false
         sorts: false
       display_extenders: {  }
     cache_metadata:
