@@ -21,13 +21,6 @@ targetEntityType: node
 bundle: video_online
 mode: default
 content:
-  field_description:
-    type: text_default
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    weight: 3
-    region: content
   field_titlevideolinks:
     type: text_default
     label: above
@@ -50,5 +43,6 @@ content:
     weight: 1
     region: content
 hidden:
+  field_description: true
   field_previewvideo: true
   layout_builder__layout: true
