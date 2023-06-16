@@ -1,0 +1,25 @@
+uuid: 84ed7251-b7f8-487c-83e8-0af8ebe595c3
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ed941909-cf72-4f4b-aa52-73c4fa263524'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: herobanner
+theme: olivero
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:ed941909-cf72-4f4b-aa52-73c4fa263524'
+settings:
+  id: 'block_content:ed941909-cf72-4f4b-aa52-73c4fa263524'
+  label: 'Hero Banner'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
