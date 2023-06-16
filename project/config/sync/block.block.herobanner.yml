@@ -6,6 +6,7 @@ dependencies:
     - 'block_content:basic:10883ee8-37c2-4a2e-9adc-ab9a277c8df9'
   module:
     - block_content
+    - system
   theme:
     - olivero
 id: herobanner
@@ -22,4 +23,8 @@ settings:
   status: true
   info: ''
   view_mode: full
-visibility: {  }
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
