@@ -2,10 +2,6 @@ uuid: b4899a63-fb57-4cc8-9d71-cf9932512555
 langcode: en
 status: true
 dependencies:
-  content:
-    - 'block_content:basic:10883ee8-37c2-4a2e-9adc-ab9a277c8df9'
-  module:
-    - block_content
   theme:
     - olivero
 id: herobanner
