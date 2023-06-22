@@ -1,0 +1,29 @@
+uuid: 7ed3f9be-51f3-4477-84fb-55ee8df44ccb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.lista_categorias
+  module:
+    - system
+    - views
+  theme:
+    - drupaldocs
+id: drupaldocs_views_block__lista_categorias_block_1
+theme: drupaldocs
+region: sidebar
+weight: 0
+provider: null
+plugin: 'views_block:lista_categorias-block_1'
+settings:
+  id: 'views_block:lista_categorias-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /lista-posts
