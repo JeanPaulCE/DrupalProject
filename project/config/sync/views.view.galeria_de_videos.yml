@@ -216,13 +216,13 @@ display:
       path: galeria
       menu:
         type: normal
-        title: 'Galeria de Video'
+        title: Galeria
         description: ''
         weight: 0
         expanded: false
         menu_name: main
         parent: ''
-        context: '1'
+        context: '0'
     cache_metadata:
       max-age: -1
       contexts:
