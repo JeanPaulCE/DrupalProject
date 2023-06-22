@@ -5,6 +5,7 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - node.type.video_online
+    - system.menu.main
   module:
     - node
     - user
@@ -213,6 +214,15 @@ display:
     display_options:
       display_extenders: {  }
       path: galeria
+      menu:
+        type: normal
+        title: 'Galeria de Video'
+        description: ''
+        weight: 0
+        expanded: false
+        menu_name: main
+        parent: ''
+        context: '1'
     cache_metadata:
       max-age: -1
       contexts:

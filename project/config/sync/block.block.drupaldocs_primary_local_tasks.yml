@@ -1,0 +1,22 @@
+uuid: daf5345a-cdd5-4913-9836-e598daa00f5f
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupaldocs
+_core:
+  default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
+id: drupaldocs_primary_local_tasks
+theme: drupaldocs
+region: highlighted
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

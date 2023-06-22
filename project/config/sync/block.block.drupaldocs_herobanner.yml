@@ -1,0 +1,21 @@
+uuid: f3eba0a3-805b-4901-8535-436828572c75
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupaldocs
+id: drupaldocs_herobanner
+theme: drupaldocs
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:ed941909-cf72-4f4b-aa52-73c4fa263524'
+settings:
+  id: 'block_content:ed941909-cf72-4f4b-aa52-73c4fa263524'
+  label: 'Hero Banner'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

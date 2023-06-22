@@ -1,0 +1,22 @@
+uuid: 0909d057-97ca-4cc0-9610-2b052ae455da
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupaldocs
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: drupaldocs_powered
+theme: drupaldocs
+region: header
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }
