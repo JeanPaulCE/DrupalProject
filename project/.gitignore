@@ -2,7 +2,6 @@
 web/files
 web/sites/*/files
 web/sites/*/private
-web/sites/*/settings.local.php
 vendor
 web/modules/contrib
 web/core
