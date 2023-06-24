@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.post.field_categoria
     - field.field.node.post.field_comentarios
     - field.field.node.post.field_enlaces_relacionados
+    - field.field.node.post.field_field_dat
     - field.field.node.post.field_imagen
     - field.field.node.post.field_palabras_clave
     - node.type.post
@@ -36,5 +37,6 @@ hidden:
   field_categoria: true
   field_comentarios: true
   field_enlaces_relacionados: true
+  field_field_dat: true
   field_imagen: true
   field_palabras_clave: true

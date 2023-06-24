@@ -1,0 +1,24 @@
+uuid: 5ce246c1-9e72-4b74-8f4e-68e169c7e6d8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_postdate
+    - paragraphs.paragraphs_type.lista_de_posts
+  module:
+    - text
+id: paragraph.lista_de_posts.field_postdate
+field_name: field_postdate
+entity_type: paragraph
+bundle: lista_de_posts
+label: PostDate
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '01 Jan 2000'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

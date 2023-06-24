@@ -1,0 +1,46 @@
+PostsCards:
+  label: 'Post Card'
+  description: 'El card del posts'
+  fields:
+    title:
+      type: string
+      label: Post title
+      description: Title of the Post
+      preview: 'Titulo de Carta'
+    date:
+      type: string
+      label: date 
+      description: publishing date
+      preview: '01 En 2000'
+    description:
+      type: string
+      label: text
+      description: filler text
+      preview: Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci consectetur adipiscing elit. Praesent nec interdum augue
+    img:
+      type: string
+      label: img
+      description: image of the post
+      preview: 'no image'
+    categoryone:
+      type: string
+      label: category label
+      description: one of the categories
+      preview: 'Products'
+    categorytwo:
+      type: string
+      label: category label
+      description: one of the categories
+      preview: 'Frontend'
+    categorythree:
+      type: string
+      label: category label
+      description: one of the categories
+      preview: 'Research'
+  libraries:
+    -
+      PostsCards:
+        css:
+          component:
+            css/styles.css: {}
+      

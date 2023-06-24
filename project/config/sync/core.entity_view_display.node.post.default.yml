@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.post.field_categoria
     - field.field.node.post.field_comentarios
     - field.field.node.post.field_enlaces_relacionados
+    - field.field.node.post.field_field_dat
     - field.field.node.post.field_imagen
     - field.field.node.post.field_palabras_clave
     - node.type.post
@@ -139,6 +140,21 @@ third_party_settings:
                 third_party_settings: {  }
             weight: 6
             additional: {  }
+          1d70f6fb-fb75-4a27-bdf2-cd916d22c1a5:
+            uuid: 1d70f6fb-fb75-4a27-bdf2-cd916d22c1a5
+            region: content
+            configuration:
+              id: 'field_block:node:post:field_field_dat'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
         third_party_settings: {  }
 id: node.post.default
 targetEntityType: node
@@ -180,6 +196,13 @@ content:
       target: ''
     third_party_settings: {  }
     weight: 106
+    region: content
+  field_field_dat:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 107
     region: content
   field_imagen:
     type: entity_reference_entity_view

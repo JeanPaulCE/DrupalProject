@@ -1,0 +1,24 @@
+uuid: 3bad1c05-3a39-406e-a40d-d7b5887e400c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_postcategorythree
+    - paragraphs.paragraphs_type.lista_de_posts
+  module:
+    - text
+id: paragraph.lista_de_posts.field_postcategorythree
+field_name: field_postcategorythree
+entity_type: paragraph
+bundle: lista_de_posts
+label: PostCategorythree
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Research
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

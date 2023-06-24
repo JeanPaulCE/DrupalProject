@@ -1,0 +1,24 @@
+uuid: d09a7f69-c4ac-4458-9a72-7cc4323ef705
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_posttext
+    - paragraphs.paragraphs_type.lista_de_posts
+  module:
+    - text
+id: paragraph.lista_de_posts.field_posttext
+field_name: field_posttext
+entity_type: paragraph
+bundle: lista_de_posts
+label: PostText
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci consectetur adipiscing elit. Praesent nec interdum augue'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

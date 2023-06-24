@@ -11,6 +11,7 @@ dependencies:
   module:
     - media
     - node
+    - ui_patterns_views
     - user
 id: lista_posts
 label: 'Lista posts'
@@ -415,12 +416,38 @@ display:
           grid_gutter: 10
           alignment: horizontal
       row:
-        type: fields
+        type: ui_patterns
         options:
-          default_field_elements: true
-          inline: {  }
+          default_field_elements: 1
+          inline:
+            field_imagen: 0
+            created: 0
+            title: 0
+            field_palabras_clave: 0
           separator: ''
-          hide_empty: false
+          hide_empty: 0
+          pattern: PostsCards
+          pattern_mapping:
+            'views_row:field_imagen':
+              destination: img
+              weight: 0
+              plugin: views_row
+              source: field_imagen
+            'views_row:created':
+              destination: description
+              weight: 1
+              plugin: views_row
+              source: created
+            'views_row:title':
+              destination: title
+              weight: 2
+              plugin: views_row
+              source: title
+            'views_row:field_palabras_clave':
+              destination: categoryone
+              weight: 3
+              plugin: views_row
+              source: field_palabras_clave
       query:
         type: views_query
         options:
@@ -577,6 +604,26 @@ display:
         menu_name: main
         parent: ''
         context: '0'
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags:
+        - 'config:field.storage.node.field_imagen'
+        - 'config:field.storage.node.field_palabras_clave'
+  page_2:
+    id: page_2
+    display_title: 'Page 2'
+    display_plugin: page
+    position: 3
+    display_options:
+      display_extenders: {  }
+      path: posts-2
     cache_metadata:
       max-age: -1
       contexts:

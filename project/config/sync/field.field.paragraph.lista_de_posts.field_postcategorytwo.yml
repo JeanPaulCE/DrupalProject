@@ -1,0 +1,24 @@
+uuid: b8dd9c0c-f244-46e6-ac26-e4ce085ef73e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_postcategorytwo
+    - paragraphs.paragraphs_type.lista_de_posts
+  module:
+    - text
+id: paragraph.lista_de_posts.field_postcategorytwo
+field_name: field_postcategorytwo
+entity_type: paragraph
+bundle: lista_de_posts
+label: PostCategorytwo
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Frontend
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,24 @@
+uuid: d2551c4b-d381-442b-99d2-0acdf2da0301
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_posttitle
+    - paragraphs.paragraphs_type.lista_de_posts
+  module:
+    - text
+id: paragraph.lista_de_posts.field_posttitle
+field_name: field_posttitle
+entity_type: paragraph
+bundle: lista_de_posts
+label: PostTitle
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: 'Titulo de Carta'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

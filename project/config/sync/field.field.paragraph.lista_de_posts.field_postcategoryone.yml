@@ -1,0 +1,24 @@
+uuid: 7194ab1f-c3cb-41a2-92e4-cb608c5b52ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_postcategoryone
+    - paragraphs.paragraphs_type.lista_de_posts
+  module:
+    - text
+id: paragraph.lista_de_posts.field_postcategoryone
+field_name: field_postcategoryone
+entity_type: paragraph
+bundle: lista_de_posts
+label: PostCategoryone
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: Products
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

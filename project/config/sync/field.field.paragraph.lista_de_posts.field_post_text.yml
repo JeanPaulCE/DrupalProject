@@ -1,0 +1,21 @@
+uuid: 19a45d5d-68e1-4ccc-9780-07b03b72510e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_post_text
+    - paragraphs.paragraphs_type.lista_de_posts
+  module:
+    - text
+id: paragraph.lista_de_posts.field_post_text
+field_name: field_post_text
+entity_type: paragraph
+bundle: lista_de_posts
+label: postText
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

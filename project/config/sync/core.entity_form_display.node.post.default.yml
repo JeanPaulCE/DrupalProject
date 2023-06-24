@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.post.field_categoria
     - field.field.node.post.field_comentarios
     - field.field.node.post.field_enlaces_relacionados
+    - field.field.node.post.field_field_dat
     - field.field.node.post.field_imagen
     - field.field.node.post.field_palabras_clave
     - node.type.post
@@ -60,6 +61,14 @@ content:
     settings:
       placeholder_url: ''
       placeholder_title: ''
+    third_party_settings: {  }
+  field_field_dat:
+    type: text_textfield
+    weight: 26
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   field_imagen:
     type: media_library_widget

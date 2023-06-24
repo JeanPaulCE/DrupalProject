@@ -1,0 +1,31 @@
+uuid: 3423a898-d3ef-4753-bc11-819219ffd121
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_components
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.lista_de_posts
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_components
+field_name: field_components
+entity_type: node
+bundle: landing_page
+label: Components
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      lista_de_posts: lista_de_posts
+    negate: 0
+    target_bundles_drag_drop:
+      lista_de_posts:
+        weight: 2
+        enabled: true
+field_type: entity_reference_revisions

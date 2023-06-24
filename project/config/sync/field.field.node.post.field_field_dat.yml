@@ -1,0 +1,24 @@
+uuid: cb44aa07-e721-492e-b93e-810d9610aec0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_dat
+    - node.type.post
+  module:
+    - text
+id: node.post.field_field_dat
+field_name: field_field_dat
+entity_type: node
+bundle: post
+label: field_date
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '01 En 2000'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text

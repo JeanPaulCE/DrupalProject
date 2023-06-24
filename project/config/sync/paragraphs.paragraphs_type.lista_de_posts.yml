@@ -1,0 +1,10 @@
+uuid: 3b9d05cc-d2c6-46bf-b45e-71b6a2e692e5
+langcode: en
+status: true
+dependencies: {  }
+id: lista_de_posts
+label: 'Lista de Posts'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }
