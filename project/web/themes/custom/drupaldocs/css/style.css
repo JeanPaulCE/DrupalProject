@@ -1,0 +1,11 @@
+.container{
+    max-width: 100% !important;
+}
+
+.main-content{
+    width: 100% !important;
+}
+
+.layout--pass--content-medium > *{
+    grid-column: 2 / 14;
+}

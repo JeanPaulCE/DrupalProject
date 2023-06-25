@@ -12,6 +12,11 @@ video_card:
       label: Card date
       description: Text about card date
       preview: 'Sunday, 1 Jan 2023'
+    text_url:
+      type: string
+      label: Card date
+      description: Text about card date
+      preview: 'Title Video'
   libraries:
     -
       video_card:

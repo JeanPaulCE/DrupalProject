@@ -2,6 +2,8 @@ base:
   version: VERSION
   css:
     component:
+      css/style.css:
+        weight: -10
       css/components/action-links.css:
         weight: -10
       css/components/breadcrumb.css:
@@ -103,3 +105,9 @@ user:
     component:
       css/components/user.css:
         weight: -10
+font-awasome:
+  css:
+    theme:
+      https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css:
+        type: external
+        minified: true
