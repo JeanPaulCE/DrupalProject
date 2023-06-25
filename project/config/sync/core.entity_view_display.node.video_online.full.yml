@@ -1,13 +1,13 @@
-uuid: e6172dbc-6710-431c-9f51-c46861ed80e6
+uuid: 29fa3049-bc68-4e0e-8c38-3cf52ac63a7b
 langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.field.node.video_online.field_description
     - field.field.node.video_online.field_previewvideo
     - field.field.node.video_online.field_titlevideolinks
     - field.field.node.video_online.field_videolinks
-    - image.style.medium
     - node.type.video_online
   module:
     - image
@@ -18,17 +18,17 @@ third_party_settings:
   layout_builder:
     enabled: false
     allow_custom: false
-id: node.video_online.default
+id: node.video_online.full
 targetEntityType: node
 bundle: video_online
-mode: default
+mode: full
 content:
   field_previewvideo:
     type: image
     label: above
     settings:
       image_link: ''
-      image_style: medium
+      image_style: ''
       image_loading:
         attribute: lazy
     third_party_settings: {  }
