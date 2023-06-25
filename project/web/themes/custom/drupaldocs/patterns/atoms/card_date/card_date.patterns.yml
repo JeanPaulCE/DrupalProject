@@ -6,5 +6,10 @@ card_date:
       type: string
       label: Card date
       description: Text about card date
-      preview: 'Sunday, 1 Jan 2023'
-  
+      preview: 'Sunday, 12 Jan 2023'
+  libraries:
+    -
+      card_date:
+        css:
+          component:
+            css/style.css: {}

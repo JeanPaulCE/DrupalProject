@@ -1,0 +1,20 @@
+video_card:
+  label: 'Video card'
+  description: 'Video card'
+  fields:
+    image:
+      type: image
+      label: image
+      description: Image
+      preview: https://i.postimg.cc/XYPB8PZQ/1366-2000.jpg
+    text:
+      type: string
+      label: Card date
+      description: Text about card date
+      preview: 'Sunday, 1 Jan 2023'
+  libraries:
+    -
+      video_card:
+        css:
+          component:
+            css/style.css: {}

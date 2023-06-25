@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.video_online.field_previewvideo
     - field.field.node.video_online.field_titlevideolinks
     - field.field.node.video_online.field_videolinks
+    - image.style.medium
     - node.type.video_online
   module:
     - image
@@ -26,8 +27,8 @@ content:
     type: image
     label: above
     settings:
-      image_link: ''
-      image_style: ''
+      image_link: content
+      image_style: medium
       image_loading:
         attribute: lazy
     third_party_settings: {  }
