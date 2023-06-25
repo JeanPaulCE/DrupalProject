@@ -1,0 +1,10 @@
+card_date:
+  label: 'Card Date'
+  description: 'Card Date'
+  fields:
+    text:
+      type: string
+      label: Card date
+      description: Text about card date
+      preview: 'Sunday, 1 Jan 2023'
+  
