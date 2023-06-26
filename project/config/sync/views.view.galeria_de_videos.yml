@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - core.entity_view_mode.node.teaser
     - node.type.video_online
     - system.menu.main
@@ -212,6 +213,44 @@ display:
     display_plugin: page
     position: 1
     display_options:
+      pager:
+        type: full
+        options:
+          offset: 0
+          items_per_page: 6
+          total_pages: null
+          id: 0
+          tags:
+            next: 'Next '
+            previous: Previous
+            first: ''
+            last: ''
+          expose:
+            items_per_page: false
+            items_per_page_label: 'Items per page'
+            items_per_page_options: '5, 10, 25, 50'
+            items_per_page_options_all: false
+            items_per_page_options_all_label: '- All -'
+            offset: false
+            offset_label: Offset
+          quantity: 9
+      style:
+        type: grid_responsive
+        options:
+          uses_fields: false
+          columns: 3
+          cell_min_width: 400
+          grid_gutter: 50
+          alignment: vertical
+      row:
+        type: 'entity:node'
+        options:
+          relationship: none
+          view_mode: full
+      defaults:
+        pager: false
+        style: false
+        row: false
       display_extenders: {  }
       path: galeria
       menu:

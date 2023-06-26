@@ -1,0 +1,46 @@
+h1,h2,h3,h4,h5,h6{
+    /* color: #fff; */
+}
+
+.page-wrapper{
+    /* background-color: #090D1F; */
+}
+
+.container{
+    max-width: 100% !important;
+}
+
+.main-content{
+    width: 100% !important;
+}
+
+.layout--pass--content-medium > *{
+    grid-column: 2 / 14;
+}
+
+.site-header__inner{
+    width: 100% !important;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.pager-center{
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pager-center li a{
+    text-decoration: none;
+}
+
+.pager-center li a:target{
+    background-color: red;
+}
+
+.pager-arrow{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}

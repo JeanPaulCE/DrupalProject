@@ -80,15 +80,15 @@
 {{ attach_library('drupaldocs/node') }}
 <article{{ attributes.addClass(classes) }}>
 
-  {{ title_prefix }}
+  {# {{ title_prefix }}
   {% if label and not page %}
     <h2{{ title_attributes }}>
       <a href="{{ url }}" rel="bookmark">{{ label }}</a>
     </h2>
   {% endif %}
-  {{ title_suffix }}
+  {{ title_suffix }} #}
 
-  {% if display_submitted %}
+  {# {% if display_submitted %}
     <footer class="node__meta">
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
@@ -96,11 +96,18 @@
         {{ metadata }}
       </div>
     </footer>
-  {% endif %}
+  {% endif %} #}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {# {{kint()}} #}
-    {{ content }}
+    {# {{kint(content.field_previewvideo.0)}} #}
+    {{ 
+      pattern('video_card', {
+        image: content.field_previewvideo.0,
+        text: date,
+        text_url: label,
+        url: url, 
+      })
+     }}
   </div>
 
 </article>

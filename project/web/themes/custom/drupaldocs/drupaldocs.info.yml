@@ -7,6 +7,7 @@ libraries:
   - drupaldocs/base
   - drupaldocs/messages
   - core/normalize
+  - drupaldocs/font-awasome
 libraries-extend:
   user/drupal.user:
     - drupaldocs/user
@@ -26,8 +27,8 @@ regions:
   secondary_menu: 'Secondary menu'
   hero: 'Hero (full width)'
   highlighted: Highlighted
-  breadcrumb: Breadcrumb
-  social: Social Bar
+  # breadcrumb: Breadcrumb
+  # social: Social Bar
   content_above: Content Above
   content: Content
   sidebar: 'Sidebar'
