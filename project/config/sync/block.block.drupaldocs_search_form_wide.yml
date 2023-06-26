@@ -11,7 +11,7 @@ _core:
 id: drupaldocs_search_form_wide
 theme: drupaldocs
 region: secondary_menu
-weight: -5
+weight: -8
 provider: null
 plugin: search_form_block
 settings:
