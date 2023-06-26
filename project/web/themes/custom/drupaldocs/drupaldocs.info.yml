@@ -27,7 +27,7 @@ regions:
   secondary_menu: 'Secondary menu'
   hero: 'Hero (full width)'
   highlighted: Highlighted
-  breadcrumb: Breadcrumb
+  # breadcrumb: Breadcrumb
   # social: Social Bar
   content_above: Content Above
   content: Content

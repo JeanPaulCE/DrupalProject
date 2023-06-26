@@ -99,12 +99,13 @@
   {% endif %} #}
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {# {{kint(content.field_previewvideo)}} #}
+    {# {{kint(content.field_previewvideo.0)}} #}
     {{ 
       pattern('video_card', {
-        image: content.field_previewvideo,
+        image: content.field_previewvideo.0,
         text: date,
-        text_url: 'Prueba' 
+        text_url: label,
+        url: url, 
       })
      }}
   </div>

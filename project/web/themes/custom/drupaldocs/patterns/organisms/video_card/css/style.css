@@ -1,5 +1,9 @@
-.card-video-div{
-    /* display: inline; */
+:root{
+    --color-text: black;
+}
+
+.card-video-div img{
+    min-width: 500px;
 }
 
 .date {
@@ -9,6 +13,25 @@
     /* background-color: red; */
 }
 
-img{
-    /* max-width: 100px; */
+.link-container{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    margin: 0;
 }
+
+.link-container p{
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.link-container i{
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0;
+}
+

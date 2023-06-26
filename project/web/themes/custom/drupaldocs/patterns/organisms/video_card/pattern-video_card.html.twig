@@ -1,8 +1,9 @@
     <div class="card-video-div">
         <img src="https://i.postimg.cc/XYPB8PZQ/1366-2000.jpg" alt="">
+        {# <img src="{{ image }}" alt=""> #}
         <p class='date'>{{text}} </p>
-        <div>
-            <a href="{{url}}">{{text_url}}</a>
+        <a href="{{ url }}" class="link-container">
+            <p>{{text_url}}</p>
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
-        </div>
+        </a>
     </div>

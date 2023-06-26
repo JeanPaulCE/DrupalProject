@@ -17,6 +17,11 @@ video_card:
       label: Card date
       description: Text about card date
       preview: 'Title Video'
+    url:
+      type: url
+      label: URL
+      description: url
+      preview: https://www.google.com/
   libraries:
     -
       video_card:
