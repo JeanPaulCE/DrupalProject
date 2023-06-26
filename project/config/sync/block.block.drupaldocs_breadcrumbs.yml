@@ -1,6 +1,6 @@
 uuid: c9954b49-cd15-4bfd-8630-dea4064c93b1
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: drupaldocs_breadcrumbs
 theme: drupaldocs
-region: breadcrumb
+region: header
 weight: 0
 provider: null
 plugin: system_breadcrumb_block

@@ -8,7 +8,7 @@ id: node.video_online.title
 field_name: title
 entity_type: node
 bundle: video_online
-label: 'Youtube Videos'
+label: Titulo
 description: ''
 required: true
 translatable: true
