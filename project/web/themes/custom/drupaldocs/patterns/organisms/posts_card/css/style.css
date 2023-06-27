@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background: #090D1F;
+}
+
+
+.tags-post ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 1rem;
+    padding: 0 !important;
+    flex-wrap: wrap;
+
+}
+
+.tags-post li {
+    margin-top: 0.5rem;
+}
+
+.tags-post a {
+    background-color: #F9F5FF;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.link-container{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    margin: 0;
+}
+
+.link-container p{
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.link-container i{
+    color: var(--color-text);
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.card {
+    display: flex;
+    height: 27rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    color: #C0C5D0;
+
+    /* Text md/Normal */
+    font-size: 1rem;
+    font-family: Inter;
+    line-height: 1.5rem;
+}
+
+.card .date {
+    color: #6941C6;
+
+    /* Text sm/Semibold */
+    font-size: 0.875rem;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
