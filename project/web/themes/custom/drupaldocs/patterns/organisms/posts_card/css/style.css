@@ -16,7 +16,7 @@ body {
     gap: 1rem;
     padding: 0 !important;
     flex-wrap: wrap;
-
+    margin: 0;
 }
 
 .tags-post li {
@@ -27,6 +27,11 @@ body {
     background-color: #F9F5FF;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
+    color: #6941C6;
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-family: Inter;
+    font-weight: 600;
 }
 
 .link-container{
