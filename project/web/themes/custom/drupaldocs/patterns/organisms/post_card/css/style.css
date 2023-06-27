@@ -1,0 +1,65 @@
+.card div,
+.card img,
+.card h2 {
+    margin: 0 !important;
+}
+
+.card h2 a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+    margin: 1.5rem 0;
+}
+
+.card img {
+    max-width: 342px;
+    width: 100%;
+}
+
+.card p {
+    color: #C0C5D0;
+
+    /* Text md/Normal */
+    font-size: 1rem;
+    font-family: Inter;
+    line-height: 1.5rem;
+}
+
+.card .date {
+    color: #6941C6;
+
+    /* Text sm/Semibold */
+    font-size: 0.875rem;
+    font-family: Inter;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.wide-image {
+    width: 100% !important;
+}
+
+.image-card {
+    width: 100%;
+}
+
+.form-autocomplete {
+    width: 100% !important;
+}
+
+.view-display-id-block_1 {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
+.view-content {
+    width: 100%;
+}

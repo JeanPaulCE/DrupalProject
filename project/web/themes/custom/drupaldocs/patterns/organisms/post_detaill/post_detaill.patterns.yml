@@ -1,0 +1,41 @@
+post_detaill:
+  label: 'Post Detaill'
+  description: 'Post Detaill'
+  fields:
+    date:
+      type: string
+      label: date
+      description: Text about date
+      preview: 'Sunday, 1 Jan 2023'
+    category:
+      type: string
+      label: date
+      description: Text about category
+      preview: 'drupal'
+    image:
+      type: image
+      label: image
+      description: Image
+    body:
+      type: string
+      label: post text
+      description: Text about card date
+    categories:
+      type: array
+      label: list of categories
+      description: list of categories
+    related_urls:
+      type: array
+      label: x
+      description: list of urls
+    comentarios:
+      type: comment
+      label: x
+      description: nan
+      
+  libraries:
+    -
+      post_detaill:
+        css:
+          component:
+            css/style.css: {}
