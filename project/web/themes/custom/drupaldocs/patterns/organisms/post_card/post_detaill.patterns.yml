@@ -1,0 +1,31 @@
+post_card:
+  label: 'Post Card'
+  description: 'Post Card'
+  fields:
+    image:
+      type: Image
+      label: Image
+      description: Text about date
+    title:
+      type: string
+      label: title
+      description: Text about date
+    date:
+      type: string
+      label: date
+      description: Text about date
+      preview: 'Sunday, 1 Jan 2023'
+    abstract:
+      type: string
+      label: abstract
+      description: Text about date
+    categories:
+      type: array
+      label: categories
+      description: Text about date
+  libraries:
+    -
+      post_card:
+        css:
+          component:
+            css/style.css: {}
