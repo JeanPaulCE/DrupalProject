@@ -1,0 +1,36 @@
+post_card:
+  label: 'post_card'
+  description: 'componente de cartas'
+  fields:
+    image:
+      type: image
+      label: image
+      description: 'imagen del post'
+      preview: https://www.salonlfc.com/wp-content/uploads/2018/01/image-not-found-scaled-1150x647.png
+    date:
+      type: string
+      label: date
+      description: 'fecha de subida'
+      preview: '01 dec 2000'
+    title:
+      type: string
+      label: title
+      description: 'titulo'
+      preview: Titulo de Carta
+    text:
+      type: string
+      label: texto
+      description: 'cuerpo del texto'
+      preview: 'Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci Lorem ipsum dolor sit amet, consectetur adipisci consectetur adipiscing elit. Praesent nec interdum augu'
+    category:
+      type: string
+      label: category
+      description: 'categoria de la carta'
+      preview: frontend
+  libraries:
+    -
+      post_card:
+        css:
+          component:
+            css/style.css: {}
+      
