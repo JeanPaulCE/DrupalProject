@@ -19,6 +19,14 @@ body {
     margin: 0;
 }
 
+.card-description{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; 
+    text-overflow: ellipsis;
+}
+
 .tags-post li {
     margin-top: 0.5rem;
 }
@@ -58,7 +66,6 @@ body {
 
 .card {
     display: flex;
-    height: 27rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
