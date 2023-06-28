@@ -94,14 +94,14 @@
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
         {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
-        {{ metadata }}
+        {{ metadata }}cls
       </div>
     </footer>
   {% endif %}#}
   
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {#{{kint()}}#}
+    {# {{kint(content.field_palabras_clave.0)}} #}
     {{ pattern('posts_card', {
         image: content.field_imagen,
         date: date,

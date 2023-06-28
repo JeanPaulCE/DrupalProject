@@ -1,5 +1,5 @@
-post_card:
-  label: 'Post Card'
+post_card_sidebar:
+  label: 'Post Card Sidebar'
   description: 'Post Card'
   fields:
     image:
@@ -25,7 +25,7 @@ post_card:
       description: Text about date
   libraries:
     -
-      post_card:
+      post_card_sidebar:
         css:
           component:
             css/style.css: {}

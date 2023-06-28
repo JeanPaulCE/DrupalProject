@@ -58,6 +58,10 @@
     gap: 2rem;
 }
 
+.main-post-content img{
+    width: 100%;
+}
+
 .list-comments-post {
     display: flex;
     flex-direction: column;
@@ -106,7 +110,6 @@
 
 .primary-image>img {
     max-width: 100%;
-
 }
 
 .form-new-comment h3 {
