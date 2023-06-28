@@ -178,6 +178,7 @@ display:
       menu:
         type: normal
         title: Inicio
+        weight: -50
         menu_name: main
         parent: ''
     cache_metadata:

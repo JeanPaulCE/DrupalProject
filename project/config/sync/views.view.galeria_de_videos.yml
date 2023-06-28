@@ -257,7 +257,7 @@ display:
         type: normal
         title: Galeria
         description: ''
-        weight: 0
+        weight: -48
         expanded: false
         menu_name: main
         parent: ''
