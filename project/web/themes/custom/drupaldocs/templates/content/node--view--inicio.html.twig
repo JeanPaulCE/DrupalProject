@@ -101,16 +101,16 @@
   
 
   <div{{ content_attributes.addClass('node__content') }}>
-    {{kint(content)}}
+    {{kint(content.field_palabras_clave.1)}}
     {{ pattern('posts_card', {
         image: content.field_imagen,
         date: date,
         text_url: label,
         url: url, 
         description: content.body.0.0,
-        tag0: content.field_palabras_clave.0.title,
-        tag1: content.field_palabras_clave.1.title,
-        tag2: content.field_palabras_clave.2.title
+        tag0: content.field_palabras_clave.0,
+        tag1: content.field_palabras_clave.1,
+        tag2: content.field_palabras_clave.2
       }) 
     }}
   </div>

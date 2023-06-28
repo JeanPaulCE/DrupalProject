@@ -27,9 +27,6 @@ body {
     text-overflow: ellipsis;
 }
 
-.tags-post li {
-    margin-top: 0.5rem;
-}
 
 .tags-post a {
     background-color: #F9F5FF;
