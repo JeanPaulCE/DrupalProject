@@ -1,0 +1,50 @@
+posts_card:
+  label: 'Posts card'
+  description: 'Posts card'
+  fields:
+    image:
+      type: image
+      label: image
+      description: Image
+      preview: https://i.postimg.cc/XYPB8PZQ/1366-2000.jpg
+    date:
+      type: string
+      label: Card date
+      description: Text about card date
+      preview: 'Sunday, 1 Jan 2023'
+    text_url:
+      type: string
+      label: Card date
+      description: Text about card date
+      preview: 'Title Post'
+    url:
+      type: url
+      label: URL
+      description: url
+      preview: https://www.google.com/
+    description:
+      type: string
+      label: Description card
+      description: a description card
+      preview: 'Dolor euismod os. At gilvus premo qui. Blandit defui inhibeo interdico ludus modo pecus populus vel verto. Erat nimis nunc sino ullamcorper. Conventio ex humo ibidem lobortis natu quia volutpat.Blandit iusto letalis minim. Feugiat hos ludus nibh quia torqueo virtus. Acsi bene macto nisl quis sudo tum. Commodo dolore feugiat illum lenis tum. Caecus decet eu gilvus hos mos odio quia scisco.Eu gravis haero iriure neque vicis virtus. Commoveo quibus suscipere valde. Hos lucidus magna persto similis. Dignissim euismod utrum validus vero. Abluo ludus nulla refoveo saepius secundum. Aliquip antehabeo cui distineo euismod facilisis fere gemino lenis luctus. Autem duis loquor nimis pecus proprius roto sed tum ullamcorper. Abdo eligo lenis paratus pertineo quidem scisco si. Caecus secundum tation. Abico adipiscing meus secundum tamen ulciscor ut utinam.Abico gemino magna nimis os refero saepius sino tincidunt. Adipiscing euismod facilisis sit zelus. Abbas fere pneum tego. Esse obruo refero. Appellatio commoveo dolor iustum os te ullamcorper. Accumsan acsi odio verto ymo. Duis facilisi pecus praesent valetudo. Antehabeo brevitas loquor luptatum natu olim veniam. Amet eligo valetudo. Brevitas commoveo conventio facilisis haero secundum ullamcorper. Capto esse exerci melior modo mos praemitto sino vicis.Antehabeo augue bene melior. Macto natu quadrum. Lobortis si sudo utrum. Commodo exputo immitto lucidus luptatum nunc pala. Capto causa cogo distineo fere premo veniam. Aliquip haero minim premo typicus valetudo. Abbas acsi exputo plaga ratis sit. Esse lenis velit volutpat vulputate. Capto damnum enim huic mauris quidem. Amet antehabeo cui exputo neque pecus. Abico causa decet exputo feugiat qui secundum sino te.Apellatio enim quis refoveo similis. Camur comis dolor duis genitus nibh saepius suscipere ut. Amet probo secundum. Patria quidem te. Blandit ille mauris pagus populus quis si ulciscor valetudo. Autem ex illum minim paulatim refoveo venio vindico.'
+    tag0: 
+      type: string
+      label: tag0 card
+      description: a description card
+      preview: 'Drupal1'
+    tag1: 
+      type: string
+      label: tag1 card
+      description: a description card
+      preview: 'Drupal2'
+    tag2: 
+      type: string
+      label: tag2 card
+      description: a description card
+      preview: 'Drupal3'
+  libraries:
+    -
+      posts_card:
+        css:
+          component:
+            css/style.css: {}
