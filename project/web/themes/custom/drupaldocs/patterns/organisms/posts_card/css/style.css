@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root{
+    --color-text: #fff;
+}
+
 * {
     margin: 0;
 }
@@ -8,6 +12,9 @@ body {
     background: #090D1F;
 }
 
+.tags-post{
+    margin-top: 1rem;
+}
 
 .tags-post ul {
     display: flex;
@@ -28,7 +35,7 @@ body {
 }
 
 
-.tags-post a {
+.card .tags-post p {
     background-color: #F9F5FF;
     padding: 0.5rem 1rem;
     border-radius: 1rem;
@@ -91,3 +98,9 @@ body {
     font-weight: 600;
     line-height: 1.25rem;
 }
+
+.card h3{
+    margin: 1rem 0;
+}
+
+

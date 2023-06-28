@@ -418,7 +418,7 @@ display:
             created: 0
           separator: ''
           hide_empty: 0
-          pattern: post_card
+          pattern: post_card_sidebar
           pattern_mapping:
             'views_row:title':
               destination: title
