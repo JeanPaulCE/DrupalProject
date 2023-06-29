@@ -1,0 +1,30 @@
+uuid: 6d67366a-8efc-4c03-9ac9-e8aa6a754e54
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:60464d10-e7e5-4244-9523-d8756591e513'
+  module:
+    - block_content
+    - system
+  theme:
+    - drupaldocs
+id: hero
+theme: drupaldocs
+region: hero
+weight: 0
+provider: null
+plugin: 'block_content:60464d10-e7e5-4244-9523-d8756591e513'
+settings:
+  id: 'block_content:60464d10-e7e5-4244-9523-d8756591e513'
+  label: Hero
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /inicio
