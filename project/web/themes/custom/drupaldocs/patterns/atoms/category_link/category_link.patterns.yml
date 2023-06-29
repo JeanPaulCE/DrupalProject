@@ -1,0 +1,15 @@
+category_link:
+  label: 'Category Link'
+  description: 'Category Link'
+  fields:
+    text:
+      type: string
+      label: Card date
+      description: Text about category link
+      preview: 'category 1'
+  libraries:
+    -
+      category_link:
+        css:
+          component:
+            css/style.css: {}

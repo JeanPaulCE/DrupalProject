@@ -14,18 +14,6 @@ body, p, a, li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .page-wrapper{
     background-color: #090D1F;
 }
@@ -114,3 +102,15 @@ body, p, a, li {
     display: grid;
 }
 /* IMPORTANTE */
+
+.sidebar-grid > .site-main{
+    grid-column: 2 / 11;
+}
+
+.lista-categorias a{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    /* background-color: red; */
+    text-decoration: dotted;
+}
