@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.storage.node.field_imagen
     - field.storage.node.field_palabras_clave
     - image.style.medium
@@ -11,7 +12,6 @@ dependencies:
   module:
     - media
     - node
-    - ui_patterns_views
     - user
 id: lista_posts
 label: 'Lista posts'
@@ -410,44 +410,16 @@ display:
       style:
         type: grid_responsive
         options:
-          grouping: {  }
+          uses_fields: false
           columns: 2
           cell_min_width: 100
-          grid_gutter: 10
+          grid_gutter: 50
           alignment: horizontal
       row:
-        type: ui_patterns
+        type: 'entity:node'
         options:
-          default_field_elements: 0
-          inline:
-            field_imagen: 0
-            created: 0
-            title: 0
-            field_palabras_clave: 0
-          separator: ''
-          hide_empty: 0
-          pattern: post_card
-          pattern_mapping:
-            'views_row:field_imagen':
-              destination: image
-              weight: 0
-              plugin: views_row
-              source: field_imagen
-            'views_row:created':
-              destination: date
-              weight: 1
-              plugin: views_row
-              source: created
-            'views_row:title':
-              destination: title
-              weight: 2
-              plugin: views_row
-              source: title
-            'views_row:field_palabras_clave':
-              destination: category
-              weight: 3
-              plugin: views_row
-              source: field_palabras_clave
+          relationship: none
+          view_mode: full
       query:
         type: views_query
         options:
@@ -560,38 +532,10 @@ display:
           row_class: ''
           default_row_class: true
       row:
-        type: ui_patterns
+        type: 'entity:node'
         options:
-          default_field_elements: 1
-          inline:
-            field_imagen: 0
-            created: 0
-            title: 0
-            field_palabras_clave: 0
-          separator: ''
-          hide_empty: 0
-          pattern: post_card
-          pattern_mapping:
-            'views_row:field_imagen':
-              destination: image
-              weight: 0
-              plugin: views_row
-              source: field_imagen
-            'views_row:created':
-              destination: date
-              weight: 1
-              plugin: views_row
-              source: created
-            'views_row:title':
-              destination: title
-              weight: 2
-              plugin: views_row
-              source: title
-            'views_row:field_palabras_clave':
-              destination: category
-              weight: 3
-              plugin: views_row
-              source: field_palabras_clave
+          relationship: none
+          view_mode: full
       defaults:
         title: false
         pager: false
