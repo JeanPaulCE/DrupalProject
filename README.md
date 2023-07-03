@@ -1,3 +1,8 @@
+Juan Luis Navarro Nuñez (B95560)
+Jasir Darío Carvajal Soto (B91698)
+Marcelo Rojas Piedra (B46114)
+Jean Paul Carvajal (C01744)
+
 # A Drupal via DDEV template on Gitpod
 
 This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
