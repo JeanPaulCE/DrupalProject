@@ -1,0 +1,25 @@
+node_video:
+  label: 'Node video'
+  description: 'Node video'
+  fields:
+    video:
+      type: video
+      label: video
+      description: Video
+      preview: https://www.youtube.com/watch?v=YOX9LQ6v73w&t=1520s
+    title:
+      type: string
+      label: Title
+      description: Title
+      preview: 'Sunday, 1 Jan 2023'
+    description:
+      type: string
+      label: Video description
+      description: Description about video
+      preview: 'Title Video'
+  libraries:
+    -
+      node_video:
+        css:
+          component:
+            css/style.css: {}

@@ -1,6 +1,6 @@
 uuid: 0909d057-97ca-4cc0-9610-2b052ae455da
 langcode: en
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,7 +10,7 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: drupaldocs_powered
 theme: drupaldocs
-region: footer
+region: header
 weight: -9
 provider: null
 plugin: system_powered_by_block

@@ -13,6 +13,7 @@ dependencies:
   module:
     - image
     - layout_builder
+    - text
     - user
 third_party_settings:
   layout_builder:
@@ -23,9 +24,16 @@ targetEntityType: node
 bundle: video_online
 mode: full
 content:
+  field_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
   field_previewvideo:
     type: image
-    label: above
+    label: hidden
     settings:
       image_link: content
       image_style: medium
@@ -36,7 +44,7 @@ content:
     region: content
   field_videolinks:
     type: entity_reference_entity_view
-    label: above
+    label: hidden
     settings:
       view_mode: full
       link: false
@@ -44,7 +52,6 @@ content:
     weight: 0
     region: content
 hidden:
-  field_description: true
   field_titlevideolinks: true
   layout_builder__layout: true
   links: true

@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_mode.node.full
     - field.storage.node.field_imagen
     - image.style.medium
   module:
@@ -415,18 +416,16 @@ display:
       style:
         type: grid_responsive
         options:
-          grouping: {  }
+          uses_fields: false
           columns: 2
           cell_min_width: 100
-          grid_gutter: 10
+          grid_gutter: 50
           alignment: horizontal
       row:
-        type: fields
+        type: 'entity:node'
         options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
+          relationship: none
+          view_mode: full
       query:
         type: views_query
         options:
@@ -502,12 +501,10 @@ display:
           grid_gutter: 10
           alignment: horizontal
       row:
-        type: fields
+        type: 'entity:node'
         options:
-          default_field_elements: true
-          inline: {  }
-          separator: ''
-          hide_empty: false
+          relationship: none
+          view_mode: full
       defaults:
         pager: false
         style: false
