@@ -1,75 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     font-family: Inter;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #fff;
     font-family: 'inter';
 }
 
-body, p, a, li {
+body,
+p,
+a,
+li {
     font-family: 'inter';
 }
 
 
-.page-wrapper{
+.page-wrapper {
     background-color: #090D1F;
 }
 
-.container{
+.container {
     max-width: 100% !important;
 }
 
-.main-content{
+.main-content {
     width: 100% !important;
 }
 
-.layout--pass--content-medium > *{
+.layout--pass--content-medium>* {
     grid-column: 2 / 14;
 }
 
-.site-header__inner{
+.site-header__inner {
     width: 100% !important;
 }
 
-.text-center{
+.text-center {
     text-align: center !important;
 }
 
-.pager-center{
+.pager-center {
     justify-content: center;
     gap: 1rem;
 }
 
-.pager-center li{
+.pager-center li {
     background-color: #090D1F;
     color: #fff;
 }
 
-.pager-center li a{
+.pager-center li a {
     text-decoration: none;
     color: #fff;
 }
 
-.pager-center li a:target{
+.pager-center li a:target {
     background-color: red;
 }
 
-.pager-arrow{
+.pager-arrow {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
-.site-name{
+.site-name {
     display: flex;
     align-items: center;
     text-decoration: none;
 }
 
-.site-name a{
+.site-name a {
     text-decoration: none;
     /* font-size: 1.25rem; */
     font-size: 2rem;
@@ -83,31 +91,32 @@ body, p, a, li {
     background-color: #090D1F;
 }
 
-.header-nav{
+.header-nav {
     background-color: #090D1F !important;
     color: #fff !important;
 }
 
-.menu li a span{
+.menu li a span {
     color: #fff !important;
     /* font-size: 2rem; */
 }
 
-.block-search-wide__button svg{
+.block-search-wide__button svg {
     color: #fff
 }
 
 /* IMPORTANTE */
-.contextual-region{
+.contextual-region {
     display: grid;
 }
+
 /* IMPORTANTE */
 
-.sidebar-grid > .site-main{
+.sidebar-grid>.site-main {
     grid-column: 2 / 11;
 }
 
-.lista-categorias a{
+.lista-categorias a {
     color: #fff;
     font-weight: 600;
     font-size: 1.5rem;

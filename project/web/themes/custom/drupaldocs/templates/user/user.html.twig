@@ -16,6 +16,19 @@
  * @see template_preprocess_user()
  */
 #}
+<style>
+.field__label,
+.field__item,
+.field>* {
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+
+.field img {
+    margin: auto;
+}
+</style>
 <article{{ attributes.addClass('profile') }}>
   {% if content %}
     {{- content -}}
